@@ -4,28 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures.Linear_data_structures.Stack
+namespace DataStructures.Linear_data_structures.Queue
 {
-    class UseStack
+    class UseQueue
     {
-        System.Collections.Stack stack = new System.Collections.Stack();
+        System.Collections.Queue queue = new System.Collections.Queue();
 
         private void SetData()
         {
             for (int i = 0; i < 20; i++)
             {
-                stack.Push(i);
+                queue.Enqueue(i);
             }
         }
 
         public void Print()
         {
-            Console.WriteLine("View stack:");
+            Console.WriteLine("View queue:");
             this.SetData();
 
-            while (stack.Count != 0)
+            while (queue.Count != 0)
             {
-                Console.WriteLine("Value: {0}", stack.Pop());
+                Console.WriteLine("Value: {0}", queue.Dequeue());
             }
         }
     }

@@ -18,7 +18,7 @@ namespace DataStructures.Linear_data_structures.Associative_array_dictionary_or_
             }
         }
 
-        public void PrintDictionary()
+        public void Print()
         {
             Console.WriteLine("View dictionary:");
             this.SetData();

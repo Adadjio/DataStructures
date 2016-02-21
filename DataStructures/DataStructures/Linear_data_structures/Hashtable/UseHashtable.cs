@@ -17,7 +17,7 @@ namespace DataStructures.Linear_data_structures.Hashtable
             }
         }
 
-        public void PrintHashtable()
+        public void Print()
         {
             Console.WriteLine("View hashtable:");
             this.SetData();

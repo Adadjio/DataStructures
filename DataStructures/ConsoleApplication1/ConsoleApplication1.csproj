@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DA1A0AC1-466B-4D43-9982-387798DA31F4}</ProjectGuid>
+    <ProjectGuid>{7F15C39B-EE18-48B0-A29C-F01676BC5DD4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataStructures</RootNamespace>
-    <AssemblyName>DataStructures</AssemblyName>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <AssemblyName>ConsoleApplication1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,29 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Linear_data_structures\Associative_array%28dictionary_or_map%29\UseDictionary.cs" />
-    <Compile Include="Linear_data_structures\Buffer_gap\TestGrapBufer.cs" />
-    <Compile Include="Linear_data_structures\Deque\UseDeque.cs" />
-    <Compile Include="Linear_data_structures\Hashtable\UseHashtable.cs" />
-    <Compile Include="Linear_data_structures\Queue\PriorityQueues.cs" />
-    <Compile Include="Linear_data_structures\Queue\UseQueue.cs" />
-    <Compile Include="Linear_data_structures\Stack\UseStack.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Graph\" />
-    <Folder Include="Linear_data_structures\List\" />
-    <Folder Include="Other_data_structures\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\GapBuffer\GapBuffer\GapBuffer.csproj">
-      <Project>{cc7fd777-2ae3-4644-bf1d-968f6309371c}</Project>
-      <Name>GapBuffer</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
