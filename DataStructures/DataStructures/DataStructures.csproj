@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Linear_data_structures\Associative_array%28dictionary_or_map%29\UseDictionary.cs" />
+    <Compile Include="Linear_data_structures\Hashtable\UseHashtable.cs" />
+    <Compile Include="Linear_data_structures\Stack\UseStack.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -51,7 +54,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Graph\" />
-    <Folder Include="Linear_data_structures\" />
+    <Folder Include="Linear_data_structures\Buffer_gap\" />
+    <Folder Include="Linear_data_structures\Deque\" />
+    <Folder Include="Linear_data_structures\List\" />
+    <Folder Include="Linear_data_structures\Queue\" />
     <Folder Include="Other_data_structures\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
